@@ -9,6 +9,16 @@ AD Explorer allows you to connect to a DC and browse LDAP data. It can also crea
 
 ![ADExplorer](meta/adexplorer.png)
 
+## BloodHound-CE support: ALPHA
+Alpha quality BloodHound-CE support only in this branch!
+
+Known errors:
+* ADCS Templates not working!
+* Error decoding ein.User object: json: cannot unmarshal string into Go struct field User.AllowedToDelegate of type ein.TypedPrincipal
+* Error decoding ein.Computer object: json: cannot unmarshal string into Go struct field Computer.AllowedToDelegate of type ein.TypedPrincipal
+
+There are probably more errors, as this is not well tested!
+
 ## What is supported
 
 In `BloodHound` output mode: 
